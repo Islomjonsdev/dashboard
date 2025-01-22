@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="grid gap-[32px]">
             <Calendar />
-          <Card></Card>
+            <Calendar />
         </div>
       </div>
 
