@@ -363,12 +363,12 @@ const General = () => {
     },
   ];
   return (
-    <Card className="w-full h-[400px]">
+    <Card className="w-full">
       <CardHeader>
         <CardTitle>This week</CardTitle>
         <CardDescription>These are the results of this week</CardDescription>
       </CardHeader>
-      <CardContent className="w-full h-[400px]">
+      <CardContent className="w-full h-[300px]">
         <MyResponsiveBump data={data} />
       </CardContent>
     </Card>
